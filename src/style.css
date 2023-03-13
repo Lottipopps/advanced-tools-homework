@@ -97,3 +97,35 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .navigation-links {
+    margin-top: 20px;
+  }
+  .navigation-links a {
+    margin: 10px;
+    border-radius: 4px;
+    padding: 10px 7.5px;
+  }
+  .about-paragraphs {
+    margin: 15px 0;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+  .link-1 {
+    border-radius: 4px;
+    padding: 10px 7.5px;
+  }
+}
